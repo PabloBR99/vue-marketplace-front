@@ -2,8 +2,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* @import '~vuetify/src/stylus/main'; */
 
 body * {
-  @apply transition-colors duration-1000;
+  @apply transition-colors duration-1000 ease-out;
+  font-family: Figtree;
 }
+
+body::after{
+  position:absolute; width:0; height:0; overflow:hidden; z-index:-1; 
+  content:url('./assets/login-bg.jpg') url('./assets/login-bg2.jpg');  
+}
+
+
 
