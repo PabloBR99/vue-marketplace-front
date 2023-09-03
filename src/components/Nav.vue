@@ -1,10 +1,10 @@
 <template>
   <nav class="dark:bg-gray-700 relative shadow-sm" style="z-index: 1"
-    v-bind:class="[!isDark ? 'bg-gray-50' : '', !$route.meta.hideNavbar ? 'shadow-gray-500 dark:shadow-gray-900' : 'shadow-gray-400 dark:shadow-gray-900']">
+    v-bind:class="[!isDark ? 'bg-white' : '', !$route.meta.hideNavbar ? 'shadow-gray-400 dark:shadow-gray-900' : 'shadow-gray-400 dark:shadow-gray-900']">
     <div class="flex flex-wrap items-center justify-between mx-auto px-3 py-5">
       <a href="/home" class="flex items-center pt-2">
-        <img src="../assets/logo.png" class="h-8 mr-3 pb-1 w-[40px] h-auto -translate-y-1" alt="Marketplace Logo" />
-          <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-yellow-300 text-yellow-300 -mt-1">Marketplace</span>
+        <img src="../assets/logo.png" class="h-8 mr-2 pb-1 w-[40px] h-auto -translate-y-1" alt="Marketplace Logo" />
+          <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-yellow-300 text-yellow-300 -mt-1 tracking-wide">Marketplace</span>
       </a>
       <!-- <button data-collapse-toggle="navbar-default" type="button"
         class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"

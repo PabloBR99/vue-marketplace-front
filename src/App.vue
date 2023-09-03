@@ -7,7 +7,7 @@ console.log(isDark.value)
 </script>
 
 <template>
-  <div id="app" class="min-h-screen bg-gray-200 dark:bg-gray-600 preload">
+  <div id="app" class="overflow-x-hidden min-h-screen max-h-screen overflow-scroll bg-gray-200 dark:bg-gray-600 preload">
     <NavBar/>
     <!-- SUCCESS NOTIFICATION -->
     <notifications group="auth" position="top center" width="100%">
